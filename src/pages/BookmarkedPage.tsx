@@ -3,7 +3,7 @@ import Search from "../assets/search.png";
 import Bookmarked from "../assets/smallbookmarked.png";
 import Bookmark from "../assets/smallbookmark.png";
 
-function HomePage() {
+function BookMarkedPage() {
   return (
     <div className="flex justify-start gap-11 pl-8 py-5">
       <MainDiv />
@@ -21,4 +21,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default BookMarkedPage;
