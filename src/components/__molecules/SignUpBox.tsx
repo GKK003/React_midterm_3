@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import Movie from "../../assets/Movie.png";
 
-type FormValues = {
+type Form = {
   email: string;
   password: string;
   repeatPassword: string;
@@ -17,7 +17,7 @@ function SignUpBox() {
     watch,
     reset,
     formState: { errors },
-  } = useForm<FormValues>({
+  } = useForm<Form>({
     defaultValues: {
       email: "",
       password: "",
@@ -27,7 +27,7 @@ function SignUpBox() {
 
   const passwordValue = watch("password");
 
-  const submit = (data: FormValues) => {
+  const submit = (data: Form) => {
     const userData = {
       email: data.email,
       password: data.password,
