@@ -41,13 +41,13 @@
     "title": "Undiscovered Cities",
     "thumbnail": {
       "trending": {
-        "small": "/src/assets/thumbnails/undiscovered-cities/trending/small.jpg",
-        "large": "/src/assets/thumbnails/undiscovered-cities/trending/large.jpg"
+        "small": "./src/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+        "large": "./src/assets/thumbnails/undiscovered-cities/trending/large.jpg"
       },
       "regular": {
-        "small": "/src/assets/thumbnails/undiscovered-cities/regular/small.jpg",
-        "medium": "/src/assets/thumbnails/undiscovered-cities/regular/medium.jpg",
-        "large": "/src/assets/thumbnails/undiscovered-cities/regular/large.jpg"
+        "small": "./src/assets/thumbnails/undiscovered-cities/regular/small.jpg",
+        "medium": "./src/assets/thumbnails/undiscovered-cities/regular/medium.jpg",
+        "large": "./src/assets/thumbnails/undiscovered-cities/regular/large.jpg"
       }
     },
     "year": 2019,
