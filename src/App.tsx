@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 
 import "./App.css";
 import LoginPage from "./pages/LoginPage";
@@ -11,7 +11,7 @@ import BookMarkedPage from "./pages/BookmarkedPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/tvseries" element={<TvSeries />} />
           <Route path="/bookmarked" element={<BookMarkedPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
