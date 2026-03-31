@@ -1,7 +1,7 @@
 import MainDiv from "../components/__organisms/MainDiv";
 import Search from "../assets/search.png";
-import Bookmarked from "../assets/smallbookmarked.png";
-import Bookmark from "../assets/smallbookmark.png";
+// import Bookmarked from "../assets/smallbookmarked.png";
+// import Bookmark from "../assets/smallbookmark.png";
 
 function BookMarkedPage() {
   return (

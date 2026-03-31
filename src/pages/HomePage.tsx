@@ -1,8 +1,7 @@
 import MainDiv from "../components/__organisms/MainDiv";
 import Search from "../assets/search.png";
-import Bookmarked from "../assets/smallbookmarked.png";
-import Bookmark from "../assets/smallbookmark.png";
-
+// import Bookmarked from "../assets/smallbookmarked.png";
+// import Bookmark from "../assets/smallbookmark.png";
 function HomePage() {
   return (
     <div className="flex justify-start gap-11 pl-8 py-5">
